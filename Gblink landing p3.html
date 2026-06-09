@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My First Landing Page</title>
+
+    <!-- CSS GOES INSIDE <style> TAGS -->
+    <style>
+        /* 1. Reset - remove browser default spacing */
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* 2. Style the whole page */
+        
+        body {
+            font-family: Arial;
+            /* font type */
+            background: #002b5c;
+            /* navy background */
+            color: white;
+            /* text color */
+        }
+        /* 3. Style the HERO box */
+        
+        .hero {
+            text-align: center;
+            /* center everything */
+            padding: 150px 20px;
+            /* space inside top/bottom 150px, left/right 20px */
+        }
+        /* 4. Style the big heading */
+        
+        .hero h1 {
+            font-size: 60px;
+            /* size of text */
+            margin-bottom: 20px;
+            /* space below */
+        }
+        /* 5. Style the paragraph */
+        
+        .hero p {
+            font-size: 22px;
+            margin-bottom: 40px;
+            opacity: 0.8;
+            /* make it lighter */
+        }
+        /* 6. Style the button */
+        
+        .btn {
+            background: #FFD700;
+            /* gold */
+            color: #002b5c;
+            /* navy text */
+            padding: 20px 50px;
+            /* space inside button */
+            text-decoration: none;
+            /* remove underline */
+            border-radius: 50px;
+            /* round corners */
+            font-weight: bold;
+            font-size: 20px;
+            display: inline-block;
+            /* make it behave like a box */
+        }
+        /* 7. Hover effect - when mouse goes on button */
+        
+        .btn:hover {
+            background: white;
+            cursor: pointer;
+        }
+    </style>d
+</head>
+
+<body>
+
+    <!-- HTML GOES HERE - THIS IS THE STRUCTURE -->
+    <div class="hero">
+        <h1>Hi, I'm Matthew</h1>
+        <p>I build websites that get you clients</p>
+        <a href="#contact" class="btn">Hire Me</a>
+    </div>
+
+</body>
+
+</html>
